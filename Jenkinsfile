@@ -6,7 +6,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/grimesdl'                                                                    //<------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/grimesdl/225-lab3-6.git'                                          //<------change this
-        KUBECONFIG = credentials('grimesdl')                                                         //<------change this
+        KUBECONFIG = credentials('grimesdl-225')                                                         //<------change this
     }
 
     stages {
